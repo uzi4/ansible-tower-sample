@@ -1,5 +1,9 @@
 - name: Hello World Sample
   hosts: all
+  vars:
+    ansible_connection: credssp
+    ansible_port: 5986
+  
   tasks:
     - name: Hello Message
       debug:
