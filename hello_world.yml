@@ -13,10 +13,10 @@
         msg: "Hello World!"
     
     - name: Retrieve machine credentials from Ansible Tower using the credential name
-      /*ansible.tower.tower_credential:
-        tower_host: "{{ tower_host }}"
-        tower_oauthtoken: "{{ tower_token }}"
-        name: "{{ credential_name }}"*/
+      #ansible.tower.tower_credential:
+        #tower_host: "{{ tower_host }}"
+        #tower_oauthtoken: "{{ tower_token }}"
+        #name: "{{ credential_name }}"
       vars:
         user: "{{ ansible_user }}"
         password: "{{ ansible_password }}"
